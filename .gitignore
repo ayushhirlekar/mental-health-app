@@ -1,0 +1,37 @@
+# Environment variables (contains passwords)
+.env
+*.env
+
+# Local LLM models (too large for git)
+backend/models/
+**/models/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+backend/venv/
+
+# Database
+*.db
+*.sqlite3
+
+# Flask
+instance/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
